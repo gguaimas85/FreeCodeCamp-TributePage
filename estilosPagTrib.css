@@ -1,0 +1,29 @@
+#main{
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#image{
+  max-width: 720px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background-color: white;
+  padding: 10px;
+  margin: 30px;
+}
+
+ul{
+  margin: 0 30%;
+  text-align: left;
+ 
+}
+
+@media (max-width: 460px) {
+  #img-div{
+    font-size: 1.4rem;
+  }
+}
